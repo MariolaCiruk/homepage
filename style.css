@@ -1,14 +1,63 @@
 h1 {
 	color: darkgreen
 }
+
 body {
-	color:#fefefe;
-}
-h2 {
-	color: 1560aa;
-	background: black;
+	color: #000000;
 }
 
-section {
-	background: #35c761;
+h2 {
+	background: black;
+	color: #e5c8c8;
+}
+
+.new_look {
+	background: #e5c8c8;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	color: #143c05;
+}
+
+a {
+	text-decoration: none;
+	color: red;
+
+ }
+h2{
+	color: #000000;
+	background-color: #c0baf2;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: 120%;
+}
+ h1{
+	position: relative;
+	margin-left: -22px;
+	margin-right: -22px;
+	padding: 15px;
+	color: #f0e8e8;
+	background: #63a663;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4IiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzdkN2U3ZCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwZTBlMGUiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top,  #48a548 0%, #0e0e0e 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#7d7e7d), color-stop(100%,#0e0e0e));
+	background: -webkit-linear-gradient(top,  #479047 0%,#0e0e0e 100%);
+	background: -o-linear-gradient(top,  #5caa5c 0%,#0e0e0e 100%);
+	background: -ms-linear-gradient(top,  #5c925c 0%,#0e0e0e 100%);
+	background: linear-gradient(top,  #426c42 0%,#0e0e0e 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', endColorstr='#0e0e0e',GradientType=0 ); /* IE6-8 */
+	-webkit-box-shadow: 0 -1px 0 rgba(255,255,255,.8) inset;
+	-moz-box-shadow: 0 -1px 0 rgba(255,255,255,.8) inset;
+	box-shadow: 0 -1px 0 rgba(255,255,255,.8) inset;
+	text-shadow: 0 1px 0 #ccc;
+ }
+
+a:hover {
+	text-decoration: underline;
+	background-color: aquamarine;
+	color: rgb(80, 47, 4);
+ }
+
+.normal {
+	background-color: bisque;
+	color: rgb(134, 15, 94);
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
 }
