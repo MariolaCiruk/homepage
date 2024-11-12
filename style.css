@@ -76,3 +76,13 @@ a:hover {
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 	font-size: large;
 }
+
+section {
+	padding: 16px;
+}
+footer{
+	padding: 16px;
+}
+header{
+	padding: 40px;
+}
