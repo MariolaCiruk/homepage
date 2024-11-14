@@ -8,32 +8,53 @@ html {
 	box-sizing: inherit;
 }
 
-h1 {
-	color: darkgreen
+.navigation {
+	padding: 16px;
+	background: #d6d7e8;
+	text-align: center;
 }
+
+
+
+.navigation__link {
+	color: #1e1919;
+	/* Ciemnoszary kolor tekstu po najechaniu */
+	text-decoration: underline;
+	/* Podkreślenie tekstu po najechaniu */
+	/* Tło pozostaje białe */
+	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.6);
+	/* Większy cień przy najechaniu */
+	background-color: #ffffff;
+	/* Białe tło */
+	text-decoration: none;
+	/* Brak podkreślenia */
+	padding: 3px 6px;
+	/* Wewnętrzne odstępy */
+	border-radius: 5px;
+	/* Zaokrąglenie tła */
+	transition: all 0.4s ease;
+	/* Płynne przejście efektów */
+	box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
+	/* Cień dla efektu 3D */
+	
+
+}
+
+.navigation__link:hover {
+	color: #ffffff;
+	/* Ciemnoszary kolor tekstu po najechaniu */
+	text-decoration: underline;
+	/* Podkreślenie tekstu po najechaniu */
+	background-color: #731d1d;
+	/* Tło pozostaje białe */
+	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.6);
+	/* Większy cień przy najechaniu */
+}
+
 
 body {
 	color: #000000;
 }
-
-
-
-.new_look {
-	background: #e5c8c8;
-	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-	color: #143c05;
-}
-
-
-
-h2 {
-	color: #000000;
-	background-color: #c0baf2;
-	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-	font-size: 120%;
-	padding: 16px;
-}
-
 h1 {
 	background-color: #ffffff;
 	/* Białe tło */
@@ -61,33 +82,68 @@ h1 {
 	/* Cień dla lepszego efektu wizualnego */
 }
 
-a {
-	color: #000000;
-	/* Czarny kolor tekstu */
-	background-color: #ffffff;
-	/* Białe tło */
-	text-decoration: none;
-	/* Brak podkreślenia */
-	padding: 3px 6px;
-	/* Wewnętrzne odstępy */
-	border-radius: 5px;
-	/* Zaokrąglenie tła */
-	transition: all 0.4s ease;
-	/* Płynne przejście efektów */
-	box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
-	/* Cień dla efektu 3D */
+
+.section {
+	background: #d2c3c3a4;
+	padding: 10px;
+	
 }
 
-a:hover {
-	color: #ffffff;
-	/* Ciemnoszary kolor tekstu po najechaniu */
-	text-decoration: underline;
-	/* Podkreślenie tekstu po najechaniu */
-	background-color: #731d1d;
-	/* Tło pozostaje białe */
-	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.6);
-	/* Większy cień przy najechaniu */
+.abouthtml {
+	color: #000000;
+	background-color: #ffffff;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	padding: 16px;
 }
+
+.abouthtml__header3 {
+	color: #000000;
+	background-color: #ffffff;
+	font-size: medium;
+	width: max-content;
+	padding: 16px;
+}
+.abouthtml__header3:hover {
+	color: #ffffff;
+	background-color: #000000;
+	font-size: medium;
+	padding: 16px;
+}
+
+.abouthtml__header3--tekst {
+	color: #000000;
+	background-color: #ffffff;
+	padding: 16px;
+}
+
+.section__header {
+	color: #102f53a4;
+	text-align: center;
+	;
+}
+
+.section__header--special {
+	color: #300a0a;
+}
+
+.new_look {
+	background: #e5c8c8;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	color: #143c05;
+}
+
+
+
+h2 {
+	color: #000000;
+	background-color: #c0baf2;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: 120%;
+	padding: 16px;
+}
+
+
+
 
 .normal {
 	background-color: rgb(247, 238, 227);
@@ -96,9 +152,6 @@ a:hover {
 	font-size: large;
 }
 
-section {
-	padding: 16px;
-}
 
 footer {
 	padding: 16px;
@@ -118,25 +171,4 @@ article {
 	padding: 10px;
 }
 
-.navigation {
-	padding: 16px;
-	background: #4e54c8;
-}
 
-.navigation__link {
-	color: white;
-}
-
-.section {
-	background: #cbc0c0a4;
-	padding: 10px;
-}
-
-.section__header {
-	color: #80a1c6a4;
-	;
-}
-
-.section__header--special {
-	color:#731d1d;
-}
