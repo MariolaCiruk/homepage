@@ -1,3 +1,10 @@
+html {
+	box-sizing: border-box;
+}
+
+*, *:before, *:after{
+	box-sizing: inherit;
+}
 h1 {
 	color: darkgreen
 }
@@ -6,10 +13,7 @@ body {
 	color: #000000;
 }
 
-h2 {
-	background: black;
-	color: #e5c8c8;
-}
+
 
 .new_look {
 	background: #e5c8c8;
@@ -24,6 +28,7 @@ h2 {
 	background-color: #c0baf2;
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 	font-size: 120%;
+	padding: 16px;
 }
 
 h1 {
@@ -86,3 +91,15 @@ footer{
 header{
 	padding: 40px;
 }
+p{
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-right:10px;
+}
+
+article {
+	padding: 10px;
+}
+
+
+
