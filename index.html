@@ -11,7 +11,7 @@
 </head>
 
 <body>
-	<header>
+	<header class="header__sticky">
 		<nav class="navigation">
 			<a class="navigation__link" href="index.html"> Strona główna</a>
 			<a class="navigation__link" href="nauka_html.html">Nauka html zima</a>
@@ -24,7 +24,7 @@
 
 		<section class="section">
 			<h2 class="section__header">Kim jestem</h2>
-			<img src="mariola.JPG" class="section__header" rel="Zdjecie_mariola" width="200px" />
+			<img class="section__image" src="mariola.JPG" rel="Zdjecie_mariola" />
 			<p class="section__header--special"> Hej! na codzien uczę wspaniałych ludzi tajnej
 				sztuki frontendu ipracuję jako frontend developer w kilku produktach., poza tym bardzo
 				lubię robić zdjecia i latac dronem. Witam Cię na mojej stronie domowej, mam nadzieję, że znajdziesz tu
@@ -44,6 +44,8 @@
 			</article>
 			<article>
 				<h2>czy to zadziała</h2>
+
+
 				hej hej to jest test kolejnej sprawy github jak leci co leci Lorem ipsum dolor sit amet consectetur.
 			</article>
 			<article id="szkolenie">
@@ -56,7 +58,7 @@
 					który każdego dnia przybliża mnie do skończenia pracy.
 				</p>
 			</article>
-			<article>
+			<article class="new_look">
 				<h4>TERAZ tworze pracę domową ?</h4>
 
 				<p>byłam pełna entuzjazmu do działania, nadal trwam i wytrwam, mamy nowego laptopa jednak
@@ -64,42 +66,52 @@
 					zajmuje czas lecz jest olbrzymią przyjemnoscia aby działac tak sprawnie ,, cudownosc!!!!</p>
 
 			</article>
+			<article class="new_look">
+				<h4 class="abouthtml__header3">JAVA SCRIPT</h4>
+				<p class="abouthtml__content--js"></p>
+			</article>
 		</section>
 
 		<section class="box">
 			<article>
-				
+				<p class="abouthtml__content--jsa"></p>
+				<p class="abouthtml__content--jsas"></p>
 				<h3 class="box__header"> Ćwiczenie box model</h3>
 				<p>
-					<div  class="box__exsticky">Lorem ipsum </div>dolor, sit amet consectetur adipisicing elit. Recusandae quidem cupiditate, magnam
-					asperiores impedit dolorem aliquid quo officiis deserunt minus ipsum nostrum iure. Commodi, voluptas
-					dolore ipsam suscipit fugit nihil distinctio magnam molestiae iusto quod aperiam sunt qui impedit
-					cupiditate tempore ea placeat, dignissimos mollitia doloremque blanditiis earum aspernatur
-					exercitationem, eum magni. Officia dignissimos ducimus voluptatibus quam assumenda error inventore!
-					Nostrum, autem repellendus nesciunt inventore sit non atque vel nihil natus libero placeat explicabo
-					possimus error saepe facilis cumque, maxime dolores cum commodi? Sequi et numquam, perferendis nulla
-					nihil Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae quidem cupiditate, magnam
-					asperiores impedit dolorem aliquid quo officiis deserunt minus ipsum nostrum iure. Commodi, voluptas
-					dolore ipsam suscipit fugit nihil distinctio magnam molestiae iusto quod aperiam sunt qui impedit
-					cupiditate tempore ea placeat, dignissimos mollitia doloremque blanditiis earum aspernatur
-					exercitationem, eum magni. Officia dignissimos ducimus voluptatibus quam assumenda error inventore!
-					Nostrum, autem repellendus nesciunt inventore sit non atque vel nihil natus libero placeat explicabo
-					possimus error saepe facilis cumque, maxime dolores cum commodi? Sequi et numquam, perferendis nulla
-					nihil alias rerum quos quae odio aperiam fugit recusandae placeat quia perspiciatis.
+				<div class="box__exsticky">Lorem ipsum </div>dolor, sit amet consectetur adipisicing elit. Recusandae
+				quidem cupiditate, magnam
+				asperiores impedit dolorem aliquid quo officiis deserunt minus ipsum nostrum iure. Commodi, voluptas
+				dolore ipsam suscipit fugit nihil distinctio magnam molestiae iusto quod aperiam sunt qui impedit
+				cupiditate tempore ea placeat, dignissimos mollitia doloremque blanditiis earum aspernatur
+				exercitationem, eum magni. Officia dignissimos ducimus voluptatibus quam assumenda error inventore!
+				Nostrum, autem repellendus nesciunt inventore sit non atque vel nihil natus libero placeat explicabo
+				possimus error saepe facilis cumque, maxime dolores cum commodi? Sequi et numquam, perferendis nulla
+				nihil Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae quidem cupiditate, magnam
+				asperiores impedit dolorem aliquid quo officiis deserunt minus ipsum nostrum iure. Commodi, voluptas
+				dolore ipsam suscipit fugit nihil distinctio magnam molestiae iusto quod aperiam sunt qui impedit
+				cupiditate tempore ea placeat, dignissimos mollitia doloremque blanditiis earum aspernatur
+				exercitationem, eum magni. Officia dignissimos ducimus voluptatibus quam assumenda error inventore!
+				Nostrum, autem repellendus nesciunt inventore sit non atque vel nihil natus libero placeat explicabo
+				possimus error saepe facilis cumque, maxime dolores cum commodi? Sequi et numquam, perferendis nulla
+				nihil alias rerum quos quae odio aperiam fugit recusandae placeat quia perspiciatis.
 				</p>
 				<p class="box__header--kwadrat">Tutaj bedzie kwadrat</p>
+				
 				<p class="box__header--kolo">tutaj<br> będzie kółko</p>
 				<p class="box__header--kolo1">tutaj<br> będzie kółko1</p>
 			</article>
 		</section>
 
 		<section>
-			<h6 class="page__header--js"> pusty element</h6>
+			<h3>Javascript test</h3>
+			<p class="my__article--content--js">.</p>
+			<h6 class="page__header--js"> </h6>
 		</section>
 	</main>
 	<footer>
 		<p>
 			Strona domowa Maćka Korsana, wszystkie treści są efektem tworzenia szkolenia WTF : co ten frondend.
+			<a href="#top" class="footer__top"> Do góry</a>
 		</p>
 	</footer>
 	<script defer src="main.js"></script>

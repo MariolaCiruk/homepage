@@ -10,14 +10,14 @@
 </head>
 
 <body>
-    <header>
-        <nav>
-            <a href="index.html"> Strona główna</a>
-            <a href="nauka_html.html">Nauka html zima</a>
-            <a href="wiosna.html">Wiosna nauka html</a>
-            <a href="nauka_pies.html">Pies nauka html</a>
-        </nav>
-    </header>
+	<header class="header__sticky">
+		<nav class="navigation">
+			<a class="navigation__link" href="index.html"> Strona główna</a>
+			<a class="navigation__link" href="nauka_html.html">Nauka html zima</a>
+			<a class="navigation__link" href="wiosna.html">Wiosna nauka html</a>
+			<a class="navigation__link" href="nauka_pies.html">Pies nauka html</a>
+		</nav>
+	</header>
     <main>
         <header>
 
@@ -30,18 +30,19 @@
                 <h2>tutaj mozesz zobaczyc jak wyglada wiosna</h2>
 
                 <p class="new_look"> jest to najprzyjemniejszy nagłowek na sgtronie</p>
-                <p> Oto zdjecie przykładowego pieska</p><br>
-                <img src="pobrane.jpg" alt="zdjecie_pies"/>
+                <p> Oto zdjecie przykladowej wiosny</p><br>
+                <img src="images.jpg" alt="zdjecie_wiosna"/>
             </article>
         </section>
 
     </main>
-    <footer>
-        <p>
-            Strona domowa Maćka Korsana, wszystkie treści są efektem tworzenia szkolenia WTF : co ten frondend.
-        </p>
-    </footer>
-    <script src="main.js"></script>
+	<footer>
+		<p>
+			Strona domowa Maćka Korsana, wszystkie treści są efektem tworzenia szkolenia WTF : co ten frondend.
+			<a  href="#top" class="footer__top"> Do góry</a>
+		</p>
+	</footer>
+	<script defer src="main.js"></script>
 </body>
 
 </html>
