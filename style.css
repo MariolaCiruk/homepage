@@ -11,17 +11,16 @@ html {
 .flex {
 	border: 1px solid black;
 	display: flex;
-	flex-direction: row;
+	flex-direction:column;
 	flex-wrap: wrap;
 }
  
 .flex_item {
-	background: red;
+	background: rgb(69, 36, 36);
 	color: #fff;
 	border: 1px solid #fff;
 	border-radius:1rem ;
 	padding: 1rem;
-	width: 1000px;
 }
 
 main {
